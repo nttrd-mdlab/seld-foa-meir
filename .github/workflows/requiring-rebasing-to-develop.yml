@@ -1,0 +1,17 @@
+name: Requiring rebasing to develop
+
+on: 
+  push:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Check
+      run: |
+        bash ./.github/workflows/requiring-rebasing-to-develop.sh "$GITHUB_REPOSITORY" "${{ secrets.GITHUB_TOKEN }}"
