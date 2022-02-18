@@ -2,7 +2,7 @@
 FOA-MEIR is an impulse response (IR) dataset recorded in over 100 environments for use in sound event localization and detection (SELD) tasks. This dataset is set up to develop a robust SELD system in an unknown environment, and the IRs for the inferred environment are recorded at a different location from that of training data. The dataset also contains dry source recordings that can be combined with IR recordings to generate audio clips for training the SELD task.
 
 ## Download
-The dataset is currently not yet accessible due to an error in the upload to Zenodo, but will be accessible by the end of Feb 18.
+The dataset is currently not yet accessible due to an error in the upload to Zenodo, but will be accessible by the end of Feb.
 
 ## Details of dataset
 The dataset has following folder structure:
